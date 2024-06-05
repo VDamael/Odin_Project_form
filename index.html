@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <section id="main-background-left">
+            <div id="odin_backgroud">
+                <img src="./img/odin-lined.png" alt="">
+                <p>ODIN</p>
+            </div>
+        </section>
+        <section id="main-form-part">
+            <section id="info_part">
+                <p>This is not real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.</p>
+                <p>You know you want to.</p>
+            </section>
+            <form action="index.html" method="post">
+                <section id="inputs_area">
+                    <p>Let's do this!</p>
+                    <fieldset>
+                        <div class="form_input">
+                            <label for="firstname">FIRST NAME</label>
+                            <input type="text" name="firstname" id="firstname" pattern="[a-zA-Z]+">
+                        </div>
+                        <div class="form_input">
+                            <label for="lastname">LAST NAME</label>
+                            <input type="text" name="lastname" id="lastname" pattern="[a-zA-Z]+">
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <div class="form_input">
+                            <label for="email">EMAIL</label>
+                            <input type="email" name="email" id="email">
+                        </div>
+                        <div class="form_input">
+                            <label for="phone">PHONE NUMBER</label>
+                            <input type="tel" name="phone" id="phone" pattern="[0-9]{0,20}">
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <div class="form_input">
+                            <label for="password">PASSWORD</label>
+                            <input type="password" name="password" id="password">
+                        </div>
+                        <div class="form_input">
+                            <label for="confirm_password">CONFIRM PASSWORD</label>
+                            <input type="password" name="confirm_password" id="confirm_password">
+                        </div>
+                    </fieldset>
+                </section>
+                <button type="submit" id="submit_button">Create Account</button>
+            </form>
+            <p id="log_in">Already have an account ? <a href="#">Log in</a></p>
+        </section>
+    </main>
+
+</body>
+</html>
